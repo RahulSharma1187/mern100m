@@ -3,7 +3,7 @@ const router =  new express.Router();
 
 const MensRanking = require("../models/mens");
 
-// we will handle post req
+// we will handle post req...
 router.post('/mens', async (req, res) => {
     try{
         const addingMensRecord = new MensRanking(req.body);
